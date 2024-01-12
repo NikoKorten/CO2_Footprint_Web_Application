@@ -1,0 +1,44 @@
+/* global background color anf Google Fontfamily Montserrat */
+* {
+    background-color: #fdd9bd;
+    font-family: Montserrat !important;
+}
+
+/* chnage of main button color / border color, including hover changes */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #43766C !important;
+    border-color: #43766C !important;
+}
+
+.btn-primary:hover {
+    background-color: #43906C !important;
+    border-color: #43906C !important;
+}
+
+/* remove form box shadow and change border color */
+.form-control:focus {
+    border-color: #43766C !important;
+    box-shadow: none !important;
+}
+
+/* global customizations so that the content adapts the pages depending on the font culture */
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
